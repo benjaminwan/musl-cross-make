@@ -1,7 +1,7 @@
-diff --git a/gcc/gcc.cc b/gcc/gcc.cc
+diff --git a/gcc/gcc.c b/gcc/gcc.c
 index 7837553958b..3c81c5798d8 100644
---- a/gcc/gcc.cc
-+++ b/gcc/gcc.cc
+--- a/gcc/gcc.c
++++ b/gcc/gcc.c
 @@ -980,7 +980,8 @@ proper position among the other output files.  */
  #ifndef LINK_SSP_SPEC
  #ifdef TARGET_LIBC_PROVIDES_SSP
